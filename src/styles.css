@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+.font {
+  font-family: orbitron;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.warp {
+  background: #6abaac;
+  width: 500px;
+  height: 500px;
+  border-radius: 10%;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  font-size: 30px;
+}
+.panelBox {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  font-size: 35px;
+  background-color: #d3765c;
+  color: white;
+  width: 480px;
+  height: 45px;
+  padding: 0px;
+  border: 3px solid white;
+  border-bottom: none;
+  box-sizing: border-box;
+  text-align: right;
+  outline: none;
+  border-radius: 10px 10px 0 0;
+}
+
+.btn {
+  font-size: 15px;
+  background-color: #d3765c;
+  color: white;
+  width: 480px;
+  height: 40px;
+  padding: 0px;
+  border: 3px solid white;
+  box-sizing: border-box;
+  border-radius: 0 0 10px 10px;
+}
+.numberBock {
+  margin: 10px 0 0 0;
+}
+.numPanel {
+  display: flex;
+  justify-content: center;
+}
+.numBtn {
+  padding: 0px;
+  border: 3px solid white;
+  box-sizing: border-box;
+  border-radius: 11px 11px 11px 11px;
+  width: 70px;
+  height: 55px;
+  margin: 5px;
+  font-size: 25px;
+}
+.numBtnBig {
+  padding: 0px;
+  border: 3px solid white;
+  box-sizing: border-box;
+  border-radius: 11px 11px 11px 11px;
+  width: 150px;
+  height: 55px;
+  margin: 5px;
+  font-size: 25px;
+}
+.orangeBtn {
+  background-color: #d3765c;
+  color: white;
+}
+.orangeBtn:hover {
+  background-color: #ffffff;
+  color: #d3765c;
+}
+.whiteBtn {
+  background-color: white;
+  color: black;
+}
+.whiteBtn:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+.blackBtn {
+  background-color: black;
+  color: white;
+}
+.blackBtn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
